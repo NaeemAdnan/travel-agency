@@ -44,3 +44,21 @@ nav {
     margin-left: 35px;
     margin-right: 10px;
 }
+
+/* Explore section */
+
+.explore-section{
+    margin: 20px 135px;
+    height: 500px;
+    width: 1200px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
