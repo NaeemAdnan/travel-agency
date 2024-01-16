@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/responsive.css">
+    
 
 </head>
 
@@ -30,8 +31,26 @@
     </header>
     <main>
         <section class="explore-section">
-            <h1>Explore Your Travel</h1>
-            <p>Embark on a journey with our travel agency—discover new horizons, create lasting memories, and let wanderlust become your guide.</p>
+            <h1 class="explore-section-head">Explore Your Travel</h1>
+            <p class="explore-section-content">Embark on a journey with our travel agency—discover new horizons,<br> create lasting memories, and let wanderlust become your guide.</p>
+            <div class="explore-section-input">
+                <input type="text" placeholder="Where go" class="input">
+                <select name="times" id="time" placeholder="When" class="input">
+                    <option id="time" value="">When</option>
+                    <option id="time" value="9.00 am">9.00 am</option>
+                    <option id="time" value="2.00 pm">2.00 pm</option>
+                    <option id="time" value="8.00 pm">8.00 pm</option>
+                </select>
+                <select name="types" id="type" class="input">
+                    <option value="">Select Type</option>
+                    <option value="Single">Single</option>
+                    <option value="Couple">Couple</option>
+                    <option value="Family">Family</option>
+                    <option value="Deluxe">Deluxe</option>
+                </select>
+                <input type="submit" value=" Find Now" class="input" id="input-btn">
+            </div>
+        </div>
         </section>
     </main>
     <footer>

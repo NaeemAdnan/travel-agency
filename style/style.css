@@ -4,7 +4,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.colour{
+.colour {
     color: #FF5400;
 }
 
@@ -47,11 +47,11 @@ nav {
 
 /* Explore section */
 
-.explore-section{
+.explore-section {
     margin: 20px 135px;
     height: 500px;
     width: 1200px;
-    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
     border-radius: 16px;
     background-repeat: no-repeat;
     background-position: center;
@@ -59,6 +59,29 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
 
+.explore-section-head {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
 
+.explore-section-content {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 0;
+}
+
+.explore-section-input {
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
 }
