@@ -1,38 +1,138 @@
-@media screen and (max-width: 600px) {
-    .header {
-        margin: 0;
+
+@media screen and (max-width:600px) {
+
+    .nav-title {
+        width: 80%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 95px;
+        margin-bottom: 30px;
+
+
     }
 
-    .header-nav {
-        flex-direction: column;
-    }
-
-    .nav-menu a {
-        flex-direction: row;
-        margin: 0;
-        justify-content: space-evenly;
-    }
-
-    .explore-section {
-        margin: 0px;
-        margin-top: 15px;
-        width: 580px;
-        height: 483px;
-        flex-shrink: 0;
-    }
-
-    .explore-section-head {
-        color: #FFF;
-        font-size: 22px;
-        font-style: normal;
-        font-weight: 800;
-    }
-
-    .explore-section-content {
-        color: #FFF;
+    .bannar {
+        display: block;
         text-align: center;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 21px;
+        align-items: center;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .bannar-title {
+        width: 100%;
+        font-size: 1.6rem;
+        padding-top: 10px;
+    }
+
+    .bannar-details {
+        padding: 10px;
+        line-height: 15px;
+
+    }
+
+    .bannar,
+    .openion-input-style input {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 15px;
+
+
+    }
+
+    .openion-input-style,
+    input,
+    select {
+        display: block;
+        padding: 10px;
+        width: 100%;
+        margin-bottom: 15px;
+
+    }
+
+
+    .Newsletter {
+        display: block;
+        flex-direction: column;
+        margin: 10px 5%;
+    
+
+    }
+
+    .hotel-name {
+        width: 100%;
+    }
+
+    .hotel-middle-style {
+        width: 100%;
+    }
+
+    .hotel-service {
+        width: 100%;
+    }
+
+    .select-spot img {
+        margin-top: 5px;
+        width: 100%;
+        width: 70%;
+    }
+
+    .favourite-place-section {
+        display: block;
+
+    }
+
+    .place-section {
+        text-align: center;
+        padding: 15px;
+
+    }
+
+    .favourite-place-section img {
+        margin-top: 25px;
+        width: 100%;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .text-details-style {
+        width: 100%;
+    }
+
+    .input-style {
+        width: 100%;
+        text-align: center;
+    }
+
+    .first-prime {
+        display: block;
+    }
+
+    .best-section {
+        display: block;
+    }
+
+    .hotel-middle-style {
+        display: block;
+    }
+
+    #bars,
+    .fa-solid {
+        display: block;
+    }
+
+    ul {
+        display: none;
+    }
+
+    footer {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
     }
 }
