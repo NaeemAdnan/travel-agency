@@ -59,7 +59,7 @@ nav {
     border: tomato 1px solid;
     margin: 20px 135px;
     height: 500px;
-    width: 1200px;
+    width: auto;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
     border-radius: 16px;
     background-repeat: no-repeat;
@@ -100,4 +100,19 @@ nav {
     margin: 30px 135px;
     display: flex;
     justify-content: space-between;
+}
+
+.popular-content {
+    row-gap: 20px;
+    text-align: center justify;
+}
+
+/* footer section */
+.footer {
+    margin: 20px 135px;
+    width: auto;
+    height: 200px;
+    flex-shrink: 0;
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
 }
