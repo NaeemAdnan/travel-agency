@@ -8,6 +8,14 @@
     color: #FF5400;
 }
 
+.input-btn {
+    background-color: #FF5400;
+    color: #FFF;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+
 /* Header Section */
 .header {
     margin: 0 135px;
@@ -48,6 +56,7 @@ nav {
 /* Explore section */
 
 .explore-section {
+    border: tomato 1px solid;
     margin: 20px 135px;
     height: 500px;
     width: 1200px;
@@ -84,4 +93,11 @@ nav {
     gap: 24px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
+}
+
+.popular-section {
+    border: tomato 1px solid;
+    margin: 30px 135px;
+    display: flex;
+    justify-content: space-between;
 }
